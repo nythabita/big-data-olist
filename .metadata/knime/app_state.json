@@ -1,0 +1,22 @@
+{
+  "version" : "5.10.0.v202601281134",
+  "projects" : [ {
+    "name" : "EDA_Rifan",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "EDA_Rifan"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "EDA_Rifan",
+    "timeUsed" : "2026-06-14T16:09:01.3185702+07:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "EDA_Rifan"
+    }
+  } ]
+}
