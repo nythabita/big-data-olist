@@ -1,5 +1,5 @@
 {
-  "version" : "5.10.0.v202601281134",
+  "version" : "5.11.0.v202603030810",
   "projects" : [ ],
   "mostRecentlyUsedProjects" : [ {
     "name" : "EDA_Rifan",
@@ -21,7 +21,7 @@
     }
   }, {
     "name" : "FINAL_EDA",
-    "timeUsed" : "2026-06-15T10:42:09.4154643+07:00",
+    "timeUsed" : "2026-06-15T10:57:22.3313729+07:00",
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
