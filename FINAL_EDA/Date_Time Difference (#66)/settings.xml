@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="firstColumnSelection" type="xstring" value="Max(order_purchase_timestamp)"/>
+        <entry key="firstColumnSelection" type="xstring" value="Max*(order_purchase_timestamp)"/>
         <entry key="secondDateTimeValueType" type="xstring" value="COLUMN"/>
         <entry key="secondColumnSelection" type="xstring" value="snapshot_date"/>
         <entry key="localDateFixed" type="xstring" value="2026-06-14"/>
@@ -41,12 +41,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 8"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6179996d-a825-4404-b47f-fc3e06d58cfc"/>
+        <entry key="file_store_id" type="xstring" value="f8683441-7175-49e8-a97e-4f9613acf7d3"/>
     </config>
 </config>
