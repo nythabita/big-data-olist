@@ -6,11 +6,11 @@
             {
                 "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
                 "nodename": "GroupBy",
-                "nrexecs": 2,
+                "nrexecs": 3,
                 "nrfails": 0,
-                "exectime": 16459,
+                "exectime": 25887,
                 "nrcreated": 0,
-                "nrsettingsChanged": 2,
+                "nrsettingsChanged": 4,
                 "successor": "n/a",
                 "successornodename": "n/a"
             },
@@ -28,9 +28,31 @@
             {
                 "id": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory2",
                 "nodename": "Constant Value Column Appender",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 565,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.time.node.calculate.datetimedifference.DateTimeDifferenceNodeFactory2",
+                "nodename": "Date&Time Difference",
                 "nrexecs": 1,
                 "nrfails": 0,
-                "exectime": 385,
+                "exectime": 1083,
+                "nrcreated": 0,
+                "nrsettingsChanged": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.views.node.histogram.HistogramNodeFactory",
+                "nodename": "Histogram",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 7236,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -44,7 +66,7 @@
         "createdVia": {
         }
     },
-    "uptime": 1983464,
+    "uptime": 2028798,
     "workflowsOpened": 12,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
@@ -57,7 +79,7 @@
     "lastUsedPerspective": "none",
     "launches": 15,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 17567744,
+    "timeSinceLastStart": 18247756,
     "crashes": 0,
     "properlyShutDown": false
 }
