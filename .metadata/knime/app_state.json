@@ -19,5 +19,14 @@
       "projectType" : "WORKFLOW",
       "relativePath" : "v1_EDA_geoConfig"
     }
+  }, {
+    "name" : "FINAL_EDA",
+    "timeUsed" : "2026-06-15T10:42:09.4154643+07:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "FINAL_EDA"
+    }
   } ]
 }

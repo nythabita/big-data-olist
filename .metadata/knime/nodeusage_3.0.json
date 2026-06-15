@@ -1,8 +1,41 @@
 {
-    "version": "5.10.0.v202601281134",
+    "version": "5.11.0.v202603030810",
     "created": "2026-06-14 08:47",
     "nodestats": {
         "nodes": [
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+                "nodename": "GroupBy",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 16459,
+                "nrcreated": 0,
+                "nrsettingsChanged": 2,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.views.node.barchart.BarChartNodeFactory",
+                "nodename": "Bar Chart",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 71,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory2",
+                "nodename": "Constant Value Column Appender",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 385,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            }
         ],
         "metaNodes": {
         },
@@ -11,8 +44,8 @@
         "createdVia": {
         }
     },
-    "uptime": 866292,
-    "workflowsOpened": 10,
+    "uptime": 1983464,
+    "workflowsOpened": 12,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
@@ -22,9 +55,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 13,
+    "launches": 15,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 3931405,
+    "timeSinceLastStart": 17567744,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }
