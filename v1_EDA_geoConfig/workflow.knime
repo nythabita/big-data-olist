@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
+<<<<<<< Updated upstream
     <entry key="created_by" type="xstring" value="5.10.0.v202601281134"/>
+=======
+    <entry key="created_by" type="xstring" value="5.11.0.v202603030810"/>
+>>>>>>> Stashed changes
     <entry key="created_by_nightly" type="xboolean" value="false"/>
     <entry key="version" type="xstring" value="5.1.0"/>
     <entry key="name" type="xstring" isnull="true" value=""/>
     <config key="authorInformation">
         <entry key="authored-by" type="xstring" value="User"/>
         <entry key="authored-when" type="xstring" value="2026-06-09 03:18:05 +0700"/>
+<<<<<<< Updated upstream
         <entry key="lastEdited-by" type="xstring" value="thabi"/>
         <entry key="lastEdited-when" type="xstring" value="2026-06-14 20:50:12 +0700"/>
+=======
+        <entry key="lastEdited-by" type="xstring" value="User"/>
+        <entry key="lastEdited-when" type="xstring" value="2026-06-14 20:49:50 +0700"/>
+>>>>>>> Stashed changes
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
