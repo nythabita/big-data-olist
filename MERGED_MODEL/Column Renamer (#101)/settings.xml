@@ -8,7 +8,7 @@
     <config key="model">
         <config key="renamings">
             <config key="0">
-                <entry key="oldName" type="xstring" value="Count(order_id)"/>
+                <entry key="oldName" type="xstring" value="Count*(order_id)"/>
                 <entry key="newName" type="xstring" value="Frequency"/>
             </config>
             <config key="1">
@@ -16,7 +16,7 @@
                 <entry key="newName" type="xstring" value="Monetary"/>
             </config>
             <config key="2">
-                <entry key="oldName" type="xstring" value="snapshot_date"/>
+                <entry key="oldName" type="xstring" value="Max*(order_purchase_timestamp)"/>
                 <entry key="newName" type="xstring" value="Last_Order_Date"/>
             </config>
             <config key="3">
@@ -24,12 +24,16 @@
                 <entry key="newName" type="xstring" value="AVG_Review"/>
             </config>
             <config key="4">
-                <entry key="oldName" type="xstring" value="First(customer_state)"/>
+                <entry key="oldName" type="xstring" value="First*(customer_state)"/>
                 <entry key="newName" type="xstring" value="Customer_State"/>
             </config>
             <config key="5">
                 <entry key="oldName" type="xstring" value="RECENCY"/>
                 <entry key="newName" type="xstring" value="Recency"/>
+            </config>
+            <config key="6">
+                <entry key="oldName" type="xstring" value="Min*(order_purchase_timestamp)"/>
+                <entry key="newName" type="xstring" value="First_Order_Date"/>
             </config>
         </config>
         <entry key="doNotAllowPaddedColumnName_Internals" type="xboolean" value="true"/>
@@ -56,12 +60,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 8"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 9"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0f6703b7-bb2d-49a3-81ea-183cd2493e77"/>
+        <entry key="file_store_id" type="xstring" value="97c33147-828c-4d97-8c3c-d911c058db69"/>
     </config>
 </config>

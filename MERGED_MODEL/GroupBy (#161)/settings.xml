@@ -70,15 +70,16 @@
         <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
         <config key="aggregationColumn">
             <config key="columnNames">
-                <entry key="array-size" type="xint" value="5"/>
+                <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="order_id"/>
                 <entry key="1" type="xstring" value="Sum(payment_value)"/>
                 <entry key="2" type="xstring" value="order_purchase_timestamp"/>
                 <entry key="3" type="xstring" value="review_score"/>
                 <entry key="4" type="xstring" value="customer_state"/>
+                <entry key="5" type="xstring" value="order_purchase_timestamp"/>
             </config>
             <config key="columnTypes">
-                <entry key="array-size" type="xint" value="5"/>
+                <entry key="array-size" type="xint" value="6"/>
                 <config key="0">
                     <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
@@ -99,22 +100,28 @@
                     <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
+                <config key="5">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.time.localdatetime.LocalDateTimeCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
             </config>
             <config key="aggregationMethod">
-                <entry key="array-size" type="xint" value="5"/>
+                <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="Count"/>
                 <entry key="1" type="xstring" value="Sum_V2.5.2"/>
                 <entry key="2" type="xstring" value="Maximum"/>
                 <entry key="3" type="xstring" value="Mean_V4.6"/>
                 <entry key="4" type="xstring" value="First"/>
+                <entry key="5" type="xstring" value="Minimum"/>
             </config>
             <config key="inclMissingVals">
-                <entry key="array-size" type="xint" value="5"/>
-                <entry key="0" type="xboolean" value="true"/>
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xboolean" value="false"/>
                 <entry key="1" type="xboolean" value="false"/>
-                <entry key="2" type="xboolean" value="true"/>
+                <entry key="2" type="xboolean" value="false"/>
                 <entry key="3" type="xboolean" value="false"/>
-                <entry key="4" type="xboolean" value="true"/>
+                <entry key="4" type="xboolean" value="false"/>
+                <entry key="5" type="xboolean" value="false"/>
             </config>
         </config>
         <config key="aggregationOperatorSettings"/>
@@ -158,12 +165,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 7"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="47bfaf89-82c7-451a-a424-3280fcc338ff"/>
+        <entry key="file_store_id" type="xstring" value="5876e208-518f-4a53-8869-70f105430726"/>
     </config>
 </config>

@@ -9,18 +9,19 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="6"/>
+                <entry key="array-size" type="xint" value="8"/>
                 <entry key="0" type="xstring" value="customer_unique_id"/>
                 <entry key="1" type="xstring" value="Frequency"/>
                 <entry key="2" type="xstring" value="Monetary"/>
-                <entry key="3" type="xstring" value="AVG_Review"/>
-                <entry key="4" type="xstring" value="Customer_State"/>
-                <entry key="5" type="xstring" value="Recency"/>
+                <entry key="3" type="xstring" value="Last_Order_Date"/>
+                <entry key="4" type="xstring" value="AVG_Review"/>
+                <entry key="5" type="xstring" value="Customer_State"/>
+                <entry key="6" type="xstring" value="First(order_purchase_timestamp)"/>
+                <entry key="7" type="xstring" value="Recency"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Last_Order_Date"/>
-                <entry key="1" type="xstring" value="snapshot_date"/>
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="snapshot_date"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -56,12 +57,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 7"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 92745, Cols: 8"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bb271e9f-91aa-4521-ad72-96b862f0f5ce"/>
+        <entry key="file_store_id" type="xstring" value="bd2919cb-b5d9-40b4-afa9-5a46ab3d9b7b"/>
     </config>
 </config>
